@@ -1,0 +1,50 @@
+header{
+	background-color: #000048;
+}
+.text{
+	background-color:lightgrey;
+	color: black;
+	font-family: Verdana, "DejaVu Sans", "Bitstream Vera Sans", Geneva, sans-serif;
+	margin : 1%;
+}
+p{
+	padding: 1% 1% 1% 1%;
+	text-align: justify;
+}
+footer{
+	margin-top: 2%;
+	background-color: #000048;
+	flex:auto;
+}
+h1{
+	font-size: 30px;
+	padding: 1%;
+	color: black;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	margin: 2%;
+}
+h2{
+	color: white;
+}
+#nav  {
+	display: inline-flex;
+ 	flex-grow: 2;
+ 	color: white;
+ 	align-items: center;
+ 	width: 100%;
+ 	margin-top: 1%;
+}
+#nav  li {
+	flex-grow: 1;
+	font-size: 20px;
+}
+#nav a{
+	color: white;
+}
+
+
+body{
+	background-color: lightgrey;
+}

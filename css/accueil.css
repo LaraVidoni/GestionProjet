@@ -1,0 +1,11 @@
+.choixAccueil, .choixAccueil2{
+	border: 2px solid blue;
+	padding: 5%;
+ 	color: black;
+ 	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.choixAccueil2{
+	margin-top: 2%;
+}
