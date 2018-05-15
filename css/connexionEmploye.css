@@ -1,0 +1,8 @@
+.carreConnexion{
+	display: flex;
+  	justify-content: center;
+  	margin: 5%;
+}
+.identifiant, .mdp{
+	padding: 2%;
+}

@@ -4,7 +4,6 @@ header{
 .text{
 	background-color:lightgrey;
 	color: black;
-	font-family: Verdana, "DejaVu Sans", "Bitstream Vera Sans", Geneva, sans-serif;
 	margin : 1%;
 }
 p{
@@ -47,4 +46,5 @@ h2{
 
 body{
 	background-color: lightgrey;
+	font-family: Verdana, "DejaVu Sans", "Bitstream Vera Sans", Geneva, sans-serif;
 }
