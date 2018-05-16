@@ -2,4 +2,6 @@
 	color: black;
 	border: 2px solid blue;
 	padding: 2%;
+	margin: 2%;
+	display: inline-flex;
 }

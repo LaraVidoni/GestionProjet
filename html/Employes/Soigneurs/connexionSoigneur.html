@@ -4,17 +4,21 @@
 	<title>Connexion</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../css/reset.css">
-	<link rel="stylesheet" type="text/css" href="../css/base.css">
-	<link rel="stylesheet" type="text/css" href="../css/connexionEmploye.css">
+	
+	<link rel="stylesheet" type="text/css" href="../../../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../../../css/Employes/connexionEmploye.css">
+
 </head>
 <body>
 
 	<header>
 		<ul id="nav">
-				<li><a href="landing.html">Retour</a></li>
+				<li><a href="employePortailConnexion.html">Retour</a></li>
 		</ul>
 	</header>
+
+
 	<div class=text>
 	<h1>Connexion</h1>
 
@@ -24,7 +28,7 @@
     				<p>
       					<label for="identifiant">
         					<span>Identifiant: </span>
-        					<input type="text" id="identifiant" name="nomdutilisateur" required />
+        					<input type="text" id="identifiant" name="nomdutilisateur" placeholder="•••••••" />
       					</label>
     				</p>
     			</div>
@@ -32,10 +36,11 @@
     				<p>
      					<label for="mdp">
        	 					<span>Mot de passe: </span>
-        					<input type="text" id="mdp" name="mdpdutilisateur" required />
+        					<input type="text" id="mdp" name="mdpdutilisateur" placeholder="•••••••" />
       					</label>
     				</p>
      			</div>	
+     			<p class=test><button>Envoyer</button></p>
 		</form>		
 	</div>
 </div>
