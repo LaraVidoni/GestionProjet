@@ -12,11 +12,12 @@
 
 	<header>
 		<ul id="nav">
-				<li><a href="billeterie.html">Billeterie</a></li>
-				<li><a href="nosAnimaux.html">Nos animaux</a></li>
-				<li><a href="infosPratiques.html">Infos Pratiques</a></li>
-				<li><a href="faq.html">FAQ</a></li>
-				<li><a href="../landing.html">Retour</a></li>
+				<li><a href="accueilVisiteur.html">Accueil</a></li>
+      <li><a href="billeterie.html">Billeterie</a></li>
+      <li><a href="nosAnimaux.html">Nos animaux</a></li>
+      <li><a href="infosPratiques.html">Infos Pratiques</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="connexionVisiteur.html">Se connecter</a></li>
 		</ul>
 	</header>
 	<div class=text>
@@ -28,14 +29,12 @@
   				<fieldset>
     				<legend>Informations personnelles</legend>
     				<p>Civilité : </p>
-    			<p><input type="radio" name="civilite" id="civilite_1" value="Madame">
-    				<label for="civilite_1">Madame</label></p>
-    			<p>
-    				<input type="radio" name="civilite_2" id="civilite_2" value="Monsieur">
-    				<label for="civilite_2">Monsieur</label>
-    			</p>
+            <input type="radio"  id="civilite_1" name="civilite" value="Madame">
+    				<label for="civilite_1">Madame</label>
     			
-
+    				<input type="radio"  id="civilite_2" name="civilite" value="Monsieur">
+    				<label for="civilite_2">Monsieur</label>
+    			
     				<p>
       					<label for="prenom">
         					<span>Prénom : </span>
@@ -126,7 +125,11 @@
     				</p>
      			</div>
 		</fieldset>
-		<p  class=centre><button><a href="compteVisiteur.html">Envoyer</a></button></p>
+		<p  class=centre>
+      <a href="compteVisiteur.html">
+      <input type="button" value="Envoyer" />
+      </a>
+    </p>
 </form>
 
 
