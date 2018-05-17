@@ -5,4 +5,26 @@
 }
 .identifiant, .mdp{
 	padding: 2%;
+	width: 100%;
+}
+.inscription p,.inscription p p{
+	width:100%;
+	margin-left: 5%;
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+}
+.dejaUnCompte{
+	width:30%;
+}
+fieldset {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 136px;
+    border: 1px solid #999;
+}
+.infoFormat{
+	color:#332F40;
+	font-style: italic;
+	font-size: small;
 }

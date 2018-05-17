@@ -2,12 +2,12 @@ header{
 	background-color: #1D2B61;
 }
 .text{
-	background-color:lightgrey;
+	background-color:;
 	color: black;
 	margin : 1%;
 }
 p{
-	padding: 1% 1% 1% 1%;
+	padding: 1%;
 	text-align: justify;
 }
 footer{
@@ -25,7 +25,16 @@ h1{
 	margin: 2%;
 }
 h2{
+	font-size: 20px;
+	padding: 1%;
+	color: black;
+	margin: 2%;
+}
+h3{
+	font-size: 15px;
+	padding: 1%;
 	color: white;
+	margin: 2%;
 }
 #nav  {
 	display: inline-flex;
@@ -37,12 +46,18 @@ h2{
 }
 #nav  li {
 	flex-grow: 1;
-	font-size: 20px;
+	font-size: 20px;margin: 1%;
 }
 #nav a{
 	color: white;
+	padding: 1%;
+	
 }
-
+.centre{
+display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 body{
 	background-color: #EAEAEE;
