@@ -63,3 +63,6 @@ body{
 	background-color: #EAEAEE;
 	font-family: Verdana, "DejaVu Sans", "Bitstream Vera Sans", Geneva, sans-serif;
 }
+a{
+	text-decoration: none;
+}
