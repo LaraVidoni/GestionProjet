@@ -2,7 +2,6 @@ header{
 	background-color: #1D2B61;
 }
 .text{
-	background-color:;
 	color: black;
 	margin : 1%;
 }
@@ -54,9 +53,10 @@ h3{
 	
 }
 .centre{
-display: flex;
+	display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 2%;
 }
 
 body{
