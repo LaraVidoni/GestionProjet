@@ -66,3 +66,6 @@ body{
 a{
 	text-decoration: none;
 }
+.index, .commentaire{
+	color:white;
+}
