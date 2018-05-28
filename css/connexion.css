@@ -23,8 +23,12 @@ fieldset {
     margin-left: 136px;
     border: 1px solid #999;
 }
-.infoFormat{
-	color:#332F40;
-	font-style: italic;
-	font-size: small;
+.RecapInfo, .payement{
+	display: inline-grid;
+ 	flex-grow: 1;
+ 	align-items: center;
+ 	margin-left: 10%;
+ }
+.RecapInfo{
+	width: 30%;
 }

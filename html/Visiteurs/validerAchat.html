@@ -18,15 +18,25 @@
 			<li><a href="nosAttractions.html">Nos attractions</a></li>
 			<li><a href="restauration.html">Restauration</a></li>
 			<li><a href="infosPratiques.html">Infos Pratiques</a></li>
-			<li><a href="faq.html">FAQ</a></li>
 			<li><a href="connexionVisiteur.html">Se connecter</a></li>
 		</ul>
 	</header>
 	<div class=text>
 	<h1>Valider l'achat des billets</h1>
 
+	<div class=RecapInfo>
+
+		<h2>Rappel de votre commande</h2>
+		<p>Vous allez acheter :</p>
+			<li>..... </li>
+			<li>.....</li>
+		<p>Pour le <b>**/**/****</b></p>
+		<p>D'un montant de ....</p>
+
+
+	</div>
 	
-		<div class="centre">
+	<div class="payement">
 		
 			<form>
   				<fieldset>
@@ -38,26 +48,27 @@
         					<input type="text" id="numCarte" name="numCarte" placeholder="2587 4659 8145 7365" />
       					</label>
     				</p>
-
-					<p>
-      					<label for="crypto">
-        					<span>Cryptogramme : </span>
-        					<input type="text" id="crypto" name="crypto" placeholder="123" />
+    				<p>
+      					<label for="dateExpiration">
+        					<span>Date d'expiration : </span>
+        					<input type="text" id="dateExpiration" name="dateExpiration" placeholder="09/2019" />
+        					<p class=infoFormat>Au format MM/AAAA</p>
       					</label>
     				</p>
     				<p>
       					<label for="nomTitu">
-        					<span>Nom du titulaire : </span>
+        					<span>Titulaire de la carte : </span>
         					<input type="text" id="nomTitu" name="nomTitu" placeholder="Martin" />
       					</label>
     				</p>
-    				<p>
-      					<label for="dateValidite">
-        					<span>Date de validité : </span>
-        					<input type="text" id="dateValidite" name="dateValidite" placeholder="09/2019" />
-        					<p class=infoFormat>Au format MM/AAAA</p>
+					<p>
+      					<label for="crypto">
+        					<span>Code sécurité (CVV) : </span>
+        					<input type="text" id="crypto" name="crypto" placeholder="123" />
       					</label>
     				</p>
+    				
+    				
   				</fieldset>
   			</form>
   		</div>
