@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../../css/base.css">
-	<link rel="stylesheet" type="text/css" href="../../css/Visiteurs/achatBillet.css">
+	<link rel="stylesheet" type="text/css" href="../../css/connexion.css">
 </head>
 <body>
 
@@ -26,9 +26,43 @@
 	<h1>Valider l'achat des billets</h1>
 
 	
+		<div class="centre">
 		
+			<form>
+  				<fieldset>
+    				<legend>Informations banquaires</legend>
+    				
+    				<p>
+      					<label for="numCarte">
+        					<span>Numéro de carte : </span>
+        					<input type="text" id="numCarte" name="numCarte" placeholder="2587 4659 8145 7365" />
+      					</label>
+    				</p>
 
-		<a href=".html" class="centre">
+					<p>
+      					<label for="crypto">
+        					<span>Cryptogramme : </span>
+        					<input type="text" id="crypto" name="crypto" placeholder="123" />
+      					</label>
+    				</p>
+    				<p>
+      					<label for="nomTitu">
+        					<span>Nom du titulaire : </span>
+        					<input type="text" id="nomTitu" name="nomTitu" placeholder="Martin" />
+      					</label>
+    				</p>
+    				<p>
+      					<label for="dateValidite">
+        					<span>Date de validité : </span>
+        					<input type="text" id="dateValidite" name="dateValidite" placeholder="09/2019" />
+        					<p class=infoFormat>Au format MM/AAAA</p>
+      					</label>
+    				</p>
+  				</fieldset>
+  			</form>
+  		</div>
+
+		<a href="accesCompteBilletAchete.html" class="centre">
       <input type="button" value="Valider la commande"/>
       </a>
 
