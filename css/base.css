@@ -65,6 +65,7 @@ body{
 }
 a{
 	text-decoration: none;
+	color:black;
 }
 .index, .commentaire{
 	color:white;
@@ -73,4 +74,27 @@ a{
 	color:#332F40;
 	font-style: italic;
 	font-size: small;
+}
+.ligneColoree{
+	background-color: white;
+}
+
+table{
+	margin-left: 10%;
+	box-shadow: 5px 5px 5px #330000;
+}
+th, td{
+	padding : 2%;
+	width:10%;
+	
+}
+.choixAccueil{
+	border: 2px solid blue;
+	padding: 5%;
+	margin: 2%;
+ 	color: black;
+ 	display: inline-flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 30%;
 }

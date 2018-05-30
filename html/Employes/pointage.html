@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=fr>
 <head>
-	<title>Accueil</title>
+	<title>Pointage</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
@@ -22,6 +22,52 @@
 
 	<div class=text>
 	<h1>Pointage</h1>
+
+	<form class="pointage">
+    				<p>
+      					<label for="identifiant">
+        					<span>Identifiant: </span>
+        					<input type="text" id="identifiant" name="nomdutilisateur" placeholder="•••••••" />
+      					</label>
+    				</p>
+    				<p> 
+     					<label for="metier">
+       	 					<span>Vous êtes : </span>
+        					<input type="text" id="metier" name="metier" placeholder="•••••••" />
+      					</label>
+    				</p>
+    				<p>
+     					<label for="mdp">
+       	 					<span>Mot de passe: </span>
+        					<input type="text" id="mdp" name="mdpdutilisateur" placeholder="•••••••" />
+      					</label>
+    				</p>
+    				<p>
+      					<label for="date">
+        					<span>Date : </span>
+        					<input type="text" id="date" name="date" placeholder="•••••••" />
+        					<p class=infoFormat>Au format JJ/MM/AAAA</p>
+      					</label>
+    				</p>
+    				<p>
+     					<label for="heureDebut">
+       	 					<span>Heure de début de la journée : </span>
+        					<input type="text" id="heureDebut" name="heureDebut" placeholder="8" /><p> h </p><input type="text" id="heureDebut2" name="heureDebut2" placeholder="5" />
+      					</label>
+    				</p>
+
+    				<p>
+     					<label for="heurefin">
+       	 					<span>Heure de fin de la journée : </span>
+        					<input type="text" id="heurefin" name="heurefin" placeholder="19" /><p> h </p><input type="text" id="heurefin2" name="heurefin2" placeholder="5" />
+      					</label>
+    				</p>
+
+
+     			<a href="messagePointage.html" class=centre>
+				<input type="button" value="Valider" />
+				</a>
+		</form>	
 
 	
 	
