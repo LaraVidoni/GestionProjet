@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang=fr>
 <head>
-	<title>Statistiques</title>
+	<title>Commande - Liste</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../../css/base.css">
-	<link rel="stylesheet" type="text/css" href="../../css/Employes/connexionEmploye.css">
 </head>
 <body>
 
@@ -14,18 +13,41 @@
 		<ul id="nav">
 				<li><a href="employePortailConnexion.html">Se déconnecter</a></li>
 				<li><a href="horaires.html">Horaires</a></li>
-				<li><a href="accueilStatistique.html">Statistiques</a></li>
+				<li><a href="commande.html">Commandes</a></li>
+				<li><a href=listeFournisseurs.html>Liste des fournisseurs</a></li>
 		</ul>
 	</header>
 
 
 	<div class=text>
-	<h1>Accueil Statistiques</h1>
+	<h1>Liste des commandes</h1>
 
-	<a href=nbVisiteurs.html >Nombre de visiteurs</a>
+	<table>
+		<thead>
+			<tr class="ligneColoree">
+				<th>Date</th>
+				<th>Fournisseur</th>
+				<th>Montant</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody >
+			<tr>
+				<td>.....</td>
+				<td>.....</td>
+				<td>.....</td>
+				<td><a href="ficheDetailsCommande.html">Détails</a></td>
+			</tr>
+			
 
-	<input type="date" id ="dateNaissanceDutilisateur" name="dateNaissanceDutilisateur" value="1984-03-16">
-	
+		</tbody>
+
+	</table>
+
+	<a href="commande.html" class=centre>
+				<input type="button" value="Retour" />
+			</a>
+
 </div>
 	<footer>
 			<div class=footer>

@@ -32,3 +32,6 @@ fieldset {
 .RecapInfo{
 	width: 30%;
 }
+legend{
+	margin: 2%;
+}

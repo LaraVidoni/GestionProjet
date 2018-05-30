@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang=fr>
+<head>
+	<title>AjoutFournisseur</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../../css/connexion.css">
+</head>
+<body>
+
+	<header>
+		<ul id="nav">
+				<li><a href="employePortailConnexion.html">Se déconnecter</a></li>
+				<li><a href="horaires.html">Horaires</a></li>
+				<li><a href="commande.html">Commandes</a></li>
+				<li><a href=listeFournisseurs.html>Liste des fournisseurs</a></li>
+		</ul>
+	</header>
+
+
+	<div class=text>
+	<h1>Ajout d'un fournisseur</h1>
+
+	<form class=centre>
+  				<fieldset>
+    				<legend>Informations de contact</legend>
+    				
+    				<p>
+      					<label for="nomEntreprise">
+        					<span>Nom du fournisseur : </span>
+        					<input type="text" id="nomEntreprise" name="nomEntreprise" placeholder="•••••••" />
+      					</label>
+    				</p>
+
+    				<p>
+      					<label for="typeFournisseur">
+        					<span>Type de fourniture proposée : </span>
+        					<input type="text" id="typeFournisseur" name="typeFournisseur" placeholder="•••••••" />
+      					</label>
+    				</p>
+
+					<p>
+      					<label for="nom">
+        					<span>Nom du contact principal : </span>
+        					<input type="text" id="nom" name="nom" placeholder="•••••••" />
+      					</label>
+    				</p>
+    				<p>
+      					<label for="tel">
+        					<span>Téléphone : </span>
+        					<input type="text" id="tel" name="tel" placeholder="•••••••" />
+      					</label>
+    				</p>
+    				<p>
+      					<label for="adresseMail">
+        					<span>Adresse mail: </span>
+        					<input type="text" id="adresseMail" name="adresseMail" placeholder="•••••••" />
+        					
+      					</label>
+    				</p>
+  				</fieldset>
+
+
+			<fieldset>
+				<legend>Adresse</legend>
+       			<div class="">
+    				<p>
+      					<label for="adresse">
+        					<span>Adresse : </span>
+        					<input type="text" id="adresse" name="adressedutilisateur" placeholder="•••••••" />
+      					</label>
+    				</p>
+    			</div>
+    			<div class="">
+    				<p>
+     					<label for="cp">
+       	 					<span>Code Postal : </span>
+        					<input type="text" id="cp" name="cpdutilisateur" placeholder="•••••••" />
+      					</label>
+    				</p>
+     			</div>	
+     			<div class="">
+    				<p>
+     					<label for="ville">
+       	 					<span>Ville : </span>
+        					<input type="text" id="ville" name="villedutilisateur" placeholder="•••••••" />
+      					</label>
+    				</p>
+     			</div>
+
+     			<div class="">
+    				<p>
+     					<label for="pays">
+       	 					<span>Pays : </span>
+        					<input type="text" id="pays" name="paysdutilisateur" placeholder="•••••••" />
+      					</label>
+    				</p>
+     			</div>
+     			
+     			
+		</fieldset>
+	
+  
+</form>
+	
+			<a href="listeFournisseurs.html" class=centre>
+				<input type="button" value="Valider" />
+			</a>
+			<a href="listeFournisseurs.html" class=centre>
+				<input type="button" value="Annuler" />
+			</a>
+	
+</div>
+	<footer>
+			<div class=footer>
+				<a href="../index.html" class=index>Index</a>
+			</div>
+		</footer>	
+</body>
+</html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=fr>
 <head>
-	<title>Commande</title>
+	<title>Commande - Liste</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
@@ -11,23 +11,44 @@
 
 	<header>
 		<ul id="nav">
-			<li><a href="employePortailConnexion.html">Se déconnecter</a></li>
+				<li><a href="employePortailConnexion.html">Se déconnecter</a></li>
 				<li><a href="horaires.html">Horaires</a></li>
 				<li><a href="commande.html">Commandes</a></li>
 				<li><a href=listeFournisseurs.html>Liste des fournisseurs</a></li>
 		</ul>
 	</header>
+
+
 	<div class=text>
-	<h1>Commande</h1>
+	<h1>Liste des commandes</h1>
 
+	<table>
+		<thead>
+			<tr class="ligneColoree">
+				<th>Date</th>
+				<th>Fournisseur</th>
+				<th>Montant</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody >
+			<tr>
+				<td>.....</td>
+				<td>.....</td>
+				<td>.....</td>
+				<td><a href="ficheDetailsCommande.html">Détails</a></td>
+			</tr>
+			
 
-<a href="commandeNourriture.html" class="choixAccueil">Commande de nourriture</a>
-<a href="commandeNourritureAnimaux.html" class="choixAccueil">Commande de nourriture pour animaux</a>
-<a href="listeCommandes.html" class="choixAccueil">Liste des commandes effectuées</a>
+		</tbody>
 
+	</table>
 
+	<a href="listeCommandes.html" class=centre>
+				<input type="button" value="Retour" />
+			</a>
 
-	</div>
+</div>
 	<footer>
 			<div class=footer>
 				<a href="../index.html" class=index>Index</a>
