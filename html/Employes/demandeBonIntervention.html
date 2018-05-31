@@ -25,8 +25,68 @@
 	<h1>Demande de bon d'intervention</h1>
 
 
+<form class=centre>
+	<fieldset class=fs2>
+		<legend>Intervention</legend>
+          <p>
+            <label for="nom">
+            	<span>Nom de l'intervention :</span>
+            <input type="text" name="nom" placeholder="" />
+        	</label>
+          </p>
 
+          <p>
+            <label for="nom">
+            	<span>Date de l'intervention :</span>
 
+            <input type="date" name="dateIntervention" value="">
+        </label>
+          </p>
+
+          <p>
+            <label for="nom">
+            	<span>Heure de l'intervention :</span>
+            <input type="time" name="heureIntervention" value=""></label>
+          </p>
+	
+
+          <p>
+            <label for="ref">
+            	<span>Référence de la structure :</span>
+            <input type="text" name="ref" placeholder=""  /></label>
+          </p>
+
+          <p>
+            <label for="ref">
+            	<span>Etat actuel de la machine :</span>
+            <input type="text" name="ref" placeholder="" /></label>
+          </p>
+
+          <p>Sans contrat <input type= "radio" name="contrat" value="non"></p>
+            <p>Sous contrat<input type= "radio" name="contrat" value="oui" checked></p>
+              <p>
+                <label class="comment" for="Commentaire">Commentaire (optionnel) :</label>
+                <textarea name="Commentaire" id="Commentaire"></textarea>
+              </p>
+              </fieldset>
+        
+
+        <fieldset class=fs3>
+              <legend> Contrat actuel </legend>
+
+              <p> <span id="Fournisseur"> Fournisseur : </span> </p>
+
+              <p> <span id="Correpondant">Correspondant : </span>      .. </p>
+              <p> <span id="Poste">Poste : </span>      .. </p>
+
+              <p> <span id="IntPoss">Nombre d'interventions possibles : </span>      .. </p>
+              <p> <span id="IntRest">Nombre d'interventions restantes : </span>    .. </p>
+
+              <a href="" class="centre><input " type="button" value="Voir le contrat"></a>
+          </fieldset>   
+           </form>
+
+            <a href="" class=centre><input  type="button" value="Voir le contrat"></a>
 </div>
 	<footer>
 			<div class=footer>
