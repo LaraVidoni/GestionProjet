@@ -98,3 +98,13 @@ th, td{
   	justify-content: center;
   	width: 30%;
 }
+.tab2{
+	margin-top: 5%;
+}
+.commande{
+	background-color: white;
+	border: 2px solid black;
+}
+.fondBlanc{
+	background-color: white;
+}
