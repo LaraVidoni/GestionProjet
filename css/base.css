@@ -158,3 +158,6 @@ legend{
 .noDeco{
 	box-shadow: none;
 }
+.align{
+	display: inline;
+}
