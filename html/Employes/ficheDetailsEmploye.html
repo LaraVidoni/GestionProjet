@@ -12,7 +12,6 @@
 	<header>
 		<ul id="nav">
 				<li><a href="employePortailConnexion.html">Se déconnecter</a></li>
-				<li><a href="horaires.html">Horaires</a></li>
 				<li><a href="accueilStatistique.html">Statistiques</a></li>
 				<li><a href="listeEmployes.html">Liste des employes</a></li>
 		</ul>
@@ -23,7 +22,7 @@
 	<h1>Détails de ... </h1>
 
 	<form class=centre>
-  				<fieldset>
+  				<fieldset class=fondBlanc>
     				<legend>Informations personnelles</legend>
     				<p>Civilité : Monsieur</p>
     			
@@ -47,7 +46,7 @@
   				</fieldset>
 
 
-			<fieldset>
+			<fieldset class=fondBlanc>
 				<legend>Adresse</legend>
        			<div class="">
     				<p>
@@ -78,11 +77,9 @@
         					</label>
     				</p>
      			</div>
-     			
-     			
 		</fieldset>
 
-		<fieldset>
+		<fieldset class=fondBlanc>
 				<legend>Informations de connexion</legend>
        			<div class="">
     				<p>
@@ -101,7 +98,34 @@
      			</div>	
      			
 		</fieldset>
-	</form>
+  </form>
+  <form class=centre>
+    <fieldset class=fondBlanc>
+        <legend>Pointage</legend>
+            <div class="">
+              <p>A la date du :  <input type=date value="2018-05-31"></p>
+
+            <p>
+                
+                  <span>Heures de pointage : </span>
+                 <ul>
+                  <li>8h00</li>
+                  <li>11h00</li>
+                  <li>11h20</li>
+                  <li>13h00</li>
+                  <li>14h00</li>
+                  <li>17h00</li>
+                  <li>17h15</li>
+                  <li>20h00</li>
+                 </ul>
+                
+            </p>
+          </div>
+          
+          
+    </fieldset>
+  </form>
+
 
 	<a href="modificationEmploye.html" class=centre>
 		<input type="button" value="Modifier" />

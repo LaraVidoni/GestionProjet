@@ -47,6 +47,9 @@ h3{
 	flex-grow: 1;
 	font-size: 20px;margin: 1%;
 }
+#nav  li:before {
+	content: none;	
+}
 #nav a{
 	color: white;
 	padding: 1%;
@@ -110,8 +113,11 @@ th, td{
 }
 li{
 	margin-top: 2%;
+	margin-left: 2%;
 }
-
+li:before{
+	content: "- ";
+}
 .carreConnexion{
 	display: flex;
   	justify-content: center;
@@ -148,4 +154,7 @@ fieldset {
 }
 legend{
 	margin: 2%;
+}
+.noDeco{
+	box-shadow: none;
 }
