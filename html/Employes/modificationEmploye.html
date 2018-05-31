@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=fr>
 <head>
-	<title>Employés - Ajout</title>
+	<title>Employés - Modification</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
@@ -20,10 +20,9 @@
 
 
 	<div class=text>
-	<h1>Ajouter un employe</h1>
+	<h1>Modification de ... </h1>
 
-	<div class=centre>
-	<form >
+	<form class=centre>
   				<fieldset>
     				<legend>Informations personnelles</legend>
     				<p>Civilité : </p>
@@ -95,46 +94,24 @@
 		</fieldset>
 
 		<fieldset>
-				<legend>Informations de contact</legend>
+				<legend>Informations de connexion</legend>
        			<div class="">
     				<p>
       					<label for="adresseMail">
         					<span>Adresse mail: </span>
         					<input type="text" id="adresseMail" name="adresseMaildutilisateur" placeholder="JPierre2203@gmail.com" />
-        					
+        					<p class=infoFormat>L'adresse sert d'identifiant</p>
       					</label>
     				</p>
     			</div>
     			<div class="">
     				<p>
-     					<label for="tel">
-       	 					<span>Téléphone : </span>
-        					<input type="text" id="mdp" name="tel" placeholder="•••••••" />
+     					<label for="mdp">
+       	 					<span>Mot de passe : </span>
+        					<input type="text" id="mdp" name="mdpdutilisateur" placeholder="•••••••" />
       					</label>
     				</p>
-     			</div>	
-     			
-		</fieldset>
-    <fieldset>
-        <legend>Informations de connexion</legend>
-            <div class="">
-            <p>
-                <label for="adresseMail">
-                  <span>Adresse mail: </span>
-                  <input type="text" id="adresseMail" name="adresseMaildutilisateur" placeholder="JPierre2203@gmail.com" />
-                  <p class=infoFormat>L'adresse sert d'identifiant</p>
-                  
-                </label>
-            </p>
-          </div>
-          <div class="">
-            <p>
-              <label for="mdp">
-                  <span>Mot de passe : </span>
-                  <input type="text" id="mdp" name="mdpdutilisateur" placeholder="•••••••" />
-                </label>
-            </p>
-          </div>  
+     			</div>
           <div class="">
             <p>
               <label for="mdpConf">
@@ -142,13 +119,12 @@
                   <input type="text" id="mdpConf" name="mdpConfdutilisateur" placeholder="•••••••" />
                 </label>
             </p>
-          </div>
-          
-    </fieldset>
+          </div>	
+     			
+		</fieldset>
 	</form>
-</div>
 
-	<a href="listeEmployes.html" class=centre>
+	<a href="ficheDetailsEmploye.html" class=centre>
 		<input type="button" value="Valider" />
 	</a>
 	<a href="listeEmployes.html" class=centre>
