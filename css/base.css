@@ -47,6 +47,9 @@ h3{
 	flex-grow: 1;
 	font-size: 20px;margin: 1%;
 }
+#nav  li:before {
+	content: none;	
+}
 #nav a{
 	color: white;
 	padding: 1%;
@@ -110,4 +113,48 @@ th, td{
 }
 li{
 	margin-top: 2%;
+	margin-left: 2%;
+}
+li:before{
+	content: "- ";
+}
+.carreConnexion{
+	display: flex;
+  	justify-content: center;
+  	margin: 5%;
+}
+.identifiant, .mdp{
+	padding: 2%;
+	width: 100%;
+}
+.inscription p,.inscription p p{
+	width:100%;
+	margin-left: 5%;
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+}
+.dejaUnCompte{
+	width:30%;
+}
+fieldset {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 136px;
+    border: 1px solid #999;
+}
+.RecapInfo, .payement{
+	display: inline-grid;
+ 	flex-grow: 1;
+ 	align-items: center;
+ 	margin-left: 10%;
+ }
+.RecapInfo{
+	width: 30%;
+}
+legend{
+	margin: 2%;
+}
+.noDeco{
+	box-shadow: none;
 }
