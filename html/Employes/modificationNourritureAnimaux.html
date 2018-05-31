@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=fr>
 <head>
-	<title>StockNourriture</title>
+	<title>ModificationNourriture</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
@@ -12,13 +12,14 @@
 	<header>
 		<ul id="nav">
 				<li><a href="employePortailConnexion.html">Se déconnecter</a></li>
-				<li><a href="stockNourriture.html">Stock nourriture</a></li>
+				<li><a href="animaux.html">Animaux</a></li>
+			<li><a href="stockNourritureAnimaux.html">Stock nourriture des animaux</a></li>
 		</ul>
 	</header>
 
 
 	<div class=text>
-	<h1>Stock nourriture</h1>
+	<h1>Modification d'un produit</h1>
 
 	<table>
 		<thead>
@@ -27,46 +28,29 @@
 				<th>Quantité</th>
 				<th>Lieu de stockage</th>
 				<th>Fournisseur</th>
-				<th></th>
-				<th></th>
 			</tr>
 		</thead>
 		<tbody >
 			<tr>
-				<td>salade</td>
-				<td>35kg</td>
-				<td>frigo</td>
-				<td>Gfaim</td>
-				<td><a href="modificationProduit.html">Modifier</a></td>
-				<td>Supprimer</td>
+				<td>Carottes</td>
+				<td><input type="text" id="quantité" name="quantité" placeholder="40kg" /></td>
+				<td><input type="text" id="lieu" name="lieu" placeholder="hangard" /></td>
+				<td><input type="text" id="Fournisseur" name="Fournisseur" placeholder="SOS Lama" /></td>
 			</tr>
-			<tr class="ligneColoree">
-				<td>steack</td>
-				<td>35kg</td>
-				<td>frigo</td>
-				<td>Ladalle</td>
-				<td>Modifier</td>
-				<td>Supprimer</td>
-			</tr>
-
-
-			<tr>
-				<td>....</td>
-				<td>...</td>
-				<td>...</td>
-				<td>...</td>
-				<td>Modifier</td>
-				<td>Supprimer</td>
-			</tr>
+			
 
 		</tbody>
 
 	</table>
-
-		<a href="ajouterNourriture.html" class=centre>
-				<input type="button" value="Ajouter un produit" />
-				</a>
 	
+			<a href="stockNourritureAnimaux.html" class=centre>
+				<input type="button" value="Valider" />
+			</a>
+
+			<a href="stockNourritureAnimaux.html" class=centre>
+				<input type="button" value="Annuler" />
+			</a>
+
 </div>
 	<footer>
 			<div class=footer>
